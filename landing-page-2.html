@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Form</title>
+  <meta name="description" content="The HTML5 Herald">
+  <meta name="author" content="SitePoint">
+
+  <link rel="stylesheet" href="css/custom.css">
+
+  <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+  <![endif]-->
+</head>
+
+<body>
+  <script src="js/scripts.js"></script>
+
+    <h1>Want more information?</h1>   
+
+    <div class="container">
+  <form action="/action_page.php">
+
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+      
+    
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+      
+      <label for="fname">Email</label>
+    <input type="text" id="fname" name="email" placeholder="Your Email..">
+
+    <label for="country">Country</label>
+    <select id="country" name="country">
+      <option value="australia">Australia</option>
+      <option value="canada">Canada</option>
+      <option value="usa">USA</option>
+    </select>
+
+    <img id="stripes" src="img/stripes.png" alt="Stripes">
+    <img id="marble" src="img/marble.png" alt="Marble">  
+      
+    <label id="subject" >Which Style do you prefer?</label>
+    <textarea id="subject" name="subject" placeholder="As we are still a new brand, we appreciate any feedback! (ex. Do you like the criss-cross center? Do you prefer a high waist bottom?)" style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+
+    
+      
+  </form>
+      
+</div>
+    
+</body>
+</html>
